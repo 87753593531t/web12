@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифравой продукт</title>
+    <!-- <link rel="stylesheet"  href="css/style.css"> -->
+</head>
+<body>
+    <h1>Интерактивное веб-приложение</h1>
+    <h2>Модальное окно</h2>
+    <button id="openModal">Открыть окно</button>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+        <p>Это модальное окно</p>
+        <button id="closeModal">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- 2. Форма с валидацией -->
+    <h2>Форма регистрации</h2>
+
+    <form id="form">
+        <input type="text" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Пароль">
+        <button type="submit">Отправить</button>
+        <div class="error" id="error"></div>
+    </form>
+
+    <!-- 3. Динамический список -->
+    <h2>Список элементов</h2>
+    <input type="text" id="itemInput" placeholder="Новый элемент">
+    <button id="addItem">Добавить</button>
+
+    <p id="itemError"></p>
+
+    <ul id="list"></ul>
+<link rel="stylesheet"  href="css/style.css">
+<script type="text/javascript" src = "Script.js"></script>
+</body>
+</html>
