@@ -50,7 +50,7 @@ addBtn.addEventListener("click", function () {
 
   // Валидация
   if (input.value.trim() === "") {
-    itemError.textContent = "Жаңа элементті толтырыңыз";
+    itemError.textContent = "Вставьте новый элемент";
     return;
   }
 
